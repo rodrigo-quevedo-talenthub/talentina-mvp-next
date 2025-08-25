@@ -1,0 +1,47 @@
+
+
+.header {
+    background: #1A1A1A;
+
+    padding: 15px;
+
+    display: flex;
+
+
+}
+
+.logo {
+    padding-right: 200px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    color: #fff;
+
+    width: 100%
+}
+
+.nav ul {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav ul li {
+    color: #B0B0B0
+}
+
+.active {
+    padding: 10px;
+    
+    color: #fff !important;
+    font-weight: bolder;
+    
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
