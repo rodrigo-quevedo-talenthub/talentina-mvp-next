@@ -2,7 +2,7 @@
 
 import styles from "./Header.module.css"
 
-import { ROUTES } from "../../lib/constants/routes"
+import { ROUTES } from "@/constants/routes"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 

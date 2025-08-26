@@ -1,6 +1,6 @@
 "use client";
 
-import { useCandidatoForm } from "../../hooks/useCandidatoForm";
+import { useCandidatoForm } from "@/hooks/useCandidatoForm";
 import styles from "./CandidatosForm.module.css"
 
 

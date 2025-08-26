@@ -1,4 +1,4 @@
-import type { PostCandidato } from "../../../types/frontend/index";
+import type { PostCandidato } from "@/types/front/index";
 
 
 

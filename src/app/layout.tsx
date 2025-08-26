@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../styles/index.css"; //entry point css global
+import "@/styles/index.css"; //entry point css global
 import Header from "@/components/Header/Header";
 
 

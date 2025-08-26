@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { postCandidato } from "../lib/api/candidatos/postCandidato";
-import type { PostCandidato } from "../types/frontend/index";
+import { postCandidato } from "@/api/candidatos/postCandidato";
+import type { PostCandidato } from "@/types/front/index";
 
 
 export function useCandidatoForm(){

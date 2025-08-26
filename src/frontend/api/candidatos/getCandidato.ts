@@ -1,4 +1,4 @@
-import type { Candidato } from "../../../types/frontend/index";
+import type { Candidato } from "@/types/front/index";
 
 
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import type { Candidato } from "../types/frontend/index";
-import { getCandidatos } from "../lib/api/candidatos/getCandidatos";
+import type { Candidato } from "@/types/front/index";
+import { getCandidatos } from "@/api/candidatos/getCandidatos";
 
 
 

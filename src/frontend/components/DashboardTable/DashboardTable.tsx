@@ -1,6 +1,6 @@
 "use client";
 
-import useBuscarCandidatos from "../../hooks/useBuscarCandidatos";
+import useBuscarCandidatos from "@/hooks/useBuscarCandidatos";
 
 import styles from "./DashboardTable.module.css"
 import SettingsButton from "./SettingsButton/SettingsButton";
@@ -50,15 +50,15 @@ export default function DashboardTable() {
                                 <td>
                                     <ul>
                                         {candidato.skills.map((skill)=>{
-                                            return (<li className={styles.skill}>{skill.toUpperCase()}</li>)
+                                            return (<li key={skill} className={styles.skill}>{skill.toUpperCase()}</li>)
                                         })}
                                     </ul>
                                 </td>
                                 <td>{candidato.experiencia}</td>
                                 <td>
                                     <ul className={styles.listaExperiencias}>
-                                        <li>{candidato.experiencia1}</li>
-                                        <li>{candidato.experiencia2}</li>
+                                        <li key={"exp1"}>{candidato.experiencia1}</li>
+                                        <li key={"exp2"}>{candidato.experiencia2}</li>
                                     </ul>
                                 </td>
                                 <td>{candidato.educacion}</td>
